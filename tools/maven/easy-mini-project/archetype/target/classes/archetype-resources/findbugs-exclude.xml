@@ -1,0 +1,8 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<FindBugsFilter>
+	<Match>
+		<Package name="~cn${symbol_escape}.com${symbol_escape}.summall.*" />
+	</Match>
+</FindBugsFilter>

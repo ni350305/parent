@@ -1,0 +1,13 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+wrapper.conf配置
+${symbol_pound} Java Main class.  This class must implement the WrapperListener interface
+${symbol_pound}  or guarantee that the WrapperManager class is initialized.  Helper
+${symbol_pound}  classes are provided to do this for you.  See the Integration section
+${symbol_pound}  of the documentation for details.
+
+${symbol_pound}mainclass固定不变
+wrapper.java.mainclass=org.tanukisoftware.wrapper.WrapperSimpleApp
+${symbol_pound}这里写应用的main
+wrapper.app.parameter.1=cn.com.runnable.Main
